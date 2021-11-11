@@ -1,0 +1,95 @@
+November 9 : (Manual calculation)
+
+String:   "Information_Technology_world"
+Tasks: Manual calculation
+
+print(a[0:8]) = informat
+print(a[0:-8]) = information_technolo
+print(a[-16:8]) =
+print(a[-16:-8]) = technolo
+print(a[:8]) = informat
+print(a[:-8]) = information_technolo
+print(a[9:16])  = on_tech
+print(a[9:100]) = on_technology_world
+print(a[9:]) = on_technology_world
+print(a[-7:]) = y_world
+print(a[-7:16]) =
+print(a[-7:100]) = y_world
+print(a[:]) = information_technology_world
+print(a[2:5]) = for
+print(a[2:10]) = formatio
+print(a[2:5:1]) = for
+print(a[2:10:1]) = formatio
+print(a[-15:-8:1]) = echnolo
+print(a[2:5:2]) = fr
+print(a[2:10:2]) = frai
+print(a[-15:-8:2]) = ehoo
+print(a[2:5:3]) = f
+print(a[2:10:3]) = fmi
+print(a[-15:-8:3]) = eno
+print(a[2:5]) = for
+print(a[2:10]) = formatio
+print(a[2:5:1]) = for
+print(a[2:10:1]) = formatio
+print(a[-15:-8:1]) = echnolo 
+print(a[2:5:2]) = fr
+print(a[2:10:2]) = frai
+print(a[-15:-8:2]) = echoo
+print(a[2:5:3]) = f
+print(a[2:10:3]) = fmi
+print(a[-15:-8:3]) = eno
+print(a[-14:15:2]) = c
+print(a[12:15:1]) = tech
+print(a[-16:10:5]) = t
+print(a[:10:2]) = ifrai
+print(a[:-8:3]) = ioaothl
+print(a[:5:1]) = infor
+print(a[2::2]) = fraintcnlg_ol
+print(a[-10::2]) = lg_ol
+print(a[12::3]) = thlyo
+print(a[13::6]) = eor
+print(a[10::100]) = f
+print(a[2:10:1]) = formatio
+print(a[2:10:-1]) = 
+print(a[10:2:1]) = 
+print(a[10:2:-1]) = noitamro
+print(a[-3:3:3]) =
+print(a[3:-3:3]) = oaothlyo
+print(a[-3:3:-3]) = r_onentr
+print(a[3:-3:-3]) = 
+
+
+
+a = "hello_world_python"
+
+print(a[::3]) = hlwlph
+print(a[::-3]) = nt_r_l
+print(a[2::3]) = l_r_tn
+print(a[3::-3]) = lwlph
+print(a[:5:-2]) = hlo
+print(a[:5:5]) = h
+print(a[::-1]) = hello_world_python
+print(a[::1]) = hello_world_python
+print(a[::5]) = h_dh
+print(a[::-5]) = h_dh
+
+"Innovative_minds_python_group"
+
+#[-2:0:-1] = uorg_nohtyp_sdnim_evitavonn
+#[5:-5:5] = a_sh
+#[-5:5:-5] = gtde
+#[5:-5:-5] =
+#[3:9:-1] = 
+#[9:-10:-2] = 
+#[2:-4:-4] =
+#[-4:2:-2] = r_otpsnmeiao
+#[0:-1:-3] = 
+#[-3:3:6] =
+#[::-3] = ioteisyogu
+#[::-2] = invtv_id_yhngo
+#[2:-2:-2] =
+#[2:-2:2] = nvtv_id_yhngo
+#[5:-5:5] 
+#[3:-3:3] = oteisyog
+#[::2] = invtv_id_yhngo
+#[::-5] = 
