@@ -1,0 +1,64 @@
+November 1:
+
+Task1:
+
+#floor divison ?
+
+print(7 // 4) = 1
+print(-7 // 4) = -2
+print(9 // 4) = 2
+print(-9 // 4) = -3
+
+November 3:
+
+Task 0:
+create float ===> convert in to int str bool
+a=10.2
+print(int(a))
+print(str(a))
+print(bool(a))
+
+create int ==> conver in to float str bool
+a=10
+print("float value", float(a))
+print("str value", str(a))
+print("bool value",bool(a))
+
+create bool ===> convert in to float int str
+a=true
+print("float value",float(a))
+print("int value",int(a))
+print("string value",str(a))
+
+create str ===> convert in to int float bool
+a=india
+print("integer value",int(a))
+print("float value",float(a))
+print("bool value", bool(a))
+
+
+1. Get radius (int) and height (float) from user using input function
+   Find the area of cylinder pi r*r h 
+   Print area output in integer with formatted output
+   
+   r=int(input("enter the radius:"))
+   h=int(input("enter the height:"))
+   pi=3.14
+   A=pi*r*2*h
+   print("Area of the cylinder when radius {} and height {} is : {}.format(r,h,int(A))
+
+2. Area of the circel and circumference:
+
+area pi r * r   cicr  2 pi r
+collect radius from user as integer
+print area (int) in formatted way
+print circumference in string format in formatted way
+
+r=int(input("enter the radius:"))
+pi=3.14
+Area=pi*r**2
+Circumference=2*pi*r
+print("Area of the circle for the given radius {} is : {}".format(r,int(Area)))
+print("Circumference of the circle for the given radius {} is {}".format(r,float(Circumference)))
+
+
