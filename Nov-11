@@ -9,7 +9,29 @@ a = "django"
 
 a = "groovyy"
 
-a=str(intput(Enter the string ))
-b=a.len/2(a)
+a=str(input(Enter the string ))
+b=a.len(a/2)
 print("the middle letter is " , b)
 
+Task2:
+    
+Get two strings from user  example: 
+    "java" "groovy" ==> java6groovy4
+   
+   "pi" "mathematics"  ===> pi15mathematics2
+   
+   a=str(input(enter the string 1))
+   b=str(input(enter the string 2))
+   print(a.len(b) and b.len(a))
+   
+   Task3:
+    
+    Get one string from user
+    
+    a = "computer"
+    
+    convert middle character to upper case
+    
+    a = "computer" ==> compUter
+    groovyy ==> groOvyy
+   
