@@ -1,0 +1,15 @@
+Task1:
+    
+#collect one string from user (input)
+#identify middle letter of the string
+
+a = "computer"
+
+a = "django"
+
+a = "groovyy"
+
+a=str(intput(Enter the string ))
+b=a.len/2(a)
+print("the middle letter is " , b)
+
