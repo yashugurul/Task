@@ -2,15 +2,12 @@ Task1:
     
 #collect one string from user (input)
 #identify middle letter of the string
-
 a = "computer"
-
 a = "django"
-
 a = "groovyy"
 
 a=str(input(Enter the string ))
-b=a.len(a/2)
+b=int(len(a/2))
 print("the middle letter is " , b)
 
 Task2:
@@ -27,11 +24,32 @@ Get two strings from user  example:
    Task3:
     
     Get one string from user
-    
     a = "computer"
-    
     convert middle character to upper case
-    
     a = "computer" ==> compUter
     groovyy ==> groOvyy
-   
+    
+    a=input("enter the string")
+    b=int(len(a)/2)
+    c= a[:b]+a[b].upper()+a[b+1:]
+    print(c)
+    
+    swapcase
+    a = "InDia IS mY CounTRY"
+    b = a.swapcase()
+    print(b)
+    
+    capitalize
+    a = "india"
+    print(b)
+    
+    mutation
+    print("enter the string")
+    a=input()
+    print("enter the position")
+    b=int(input())
+    print("enter the character to insert")
+    c=str(input())
+    d=a[0:b]+c+a[b:]
+    print(d)
+    
