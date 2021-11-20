@@ -1,0 +1,44 @@
+November 18:
+
+Tuple
+
+#Create two tuples (1,4,5,6,7,8) (5,6,7,8,9)
+#Find the common elements between two tuples
+#Concatenate both tuples and remove duplicates from tuple
+#Find the index value of 9 (after concatenation)
+#multiply above elements 3 times
+
+Solution:
+tup1 = (1,4,5,6,7,8)
+tup2 = (5,6,7,8,9)
+print(tup1 + tup2)   # (1,4,5,6,7,8,5,6,7,8,9)
+print(index[-1])
+
+
+Sets
+
+#Create two empty sets
+#update set1 with 7,8,9,1,2,3,4,5,0
+#update set2 with 4,5,6,0
+#check whether set2 is subset of set1 or no ?
+#check whether both have common elements are no ?
+#remove 8 from set 1 and set 2 ==> find the inferences
+#discard 0 from set1 and set2 
+#find collection of both sets ===> set1 and set2
+
+a = set()
+b = set()
+a = {7,8,9,1,2,3,4,5,0}
+b = {4,5,6,0}
+
+
+Dictionary:
+
+#create a dictionary
+#{1:["english","maths","science"], 2:[10,20,30], 3:["bio-botany","bio-zoology","Algebra"]}
+#Extract "bobtn" from above dictionary
+#Extract "arbeg" from above dictionary
+#print all keys in dictionary and convert it into tuple
+#Find the average of all numbers available under key "2"
+
+Difference between list tuple set dictionary
