@@ -30,7 +30,14 @@ a = set()
 b = set()
 a = {7,8,9,1,2,3,4,5,0}
 b = {4,5,6,0}
-
+a.issubset(b)
+c = a.intersection(b)
+print(c)
+a.remove(8)
+a.remove(0)
+b.remove(0)
+d = a.union(b)
+print(d)
 
 Dictionary:
 
@@ -40,5 +47,7 @@ Dictionary:
 #Extract "arbeg" from above dictionary
 #print all keys in dictionary and convert it into tuple
 #Find the average of all numbers available under key "2"
+
+
 
 Difference between list tuple set dictionary
