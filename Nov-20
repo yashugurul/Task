@@ -1,0 +1,58 @@
+November 20
+
+Task1:
+
+{1:["english","maths","science"], 2:[10,20,30], 3:["bio-botany","bio-zoology","Algebra"]}
+#Extract "bobtn" from above dictionary
+#Extract "arbeg" from above dictionary
+#print all keys in dictionary and convert it into tuple
+#Find the average of all numbers available under key "2"
+
+Task2:
+
+{"python":[1994,"interpreter","scripting","development",3], "java":[1992,"compiler","scripts","frontend/backend",10],"c":[1980,"core","scripting","Both",20]}
+
+#extract 3
+#Extract 1994
+#extract backend
+#split this "frontend/backend" with / and itentify index 0
+#extract core
+
+a = {"python":[1994,"interpreter","scripting","development",3], "java":[1992,"compiler","scripts","frontend/backend",10],"c":[1980,"core","scripting","Both",20]}
+print(a["python"][4])
+print(a["python"][0])
+print(a["java"][3][9:16)
+print(a.split["java"](3))
+print(a["c"][1])
+
+
+Task3:
+
+collect one number from user, check whether the number is positive or negative
+collect one number from user, check whether the number is even or odd
+collect one string from user, check whether the string is palindrome or not
+
+num = int(input("enter the number"))
+if num >= 0:
+ print("number is positive")
+else :
+ print("number is negative")
+ 
+ num = int(input("enter the number"))
+ if num%2==0 :
+  print("number is even")
+ else :
+  print("number is odd")
+  
+  string = str(input("enter the string"))
+  
+
+Task4:
+
+a = [1,2,3,4,5,1,1,1,2,3,4,5,1]
+
+#Remove duplicates from list a 
+#convert it to list again
+
+a = [1,2,3,4,5,1,1,1,2,3,4,5,1]
+print(list(set(a)))
