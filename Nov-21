@@ -100,6 +100,14 @@ Task12:
 List #[123, 124, 125,130,131]
 length of list odd or even
 
+Li = [123, 124, 125,130,131]
+b = len(Li)
+print(Li(b))
+ if b%2==0 :
+  print("number is even")
+ else :
+  print("number is odd")
+
 #References:
 
 #https://www.guru99.com/if-loop-python-conditional-structures.html
